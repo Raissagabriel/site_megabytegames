@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1 {
+    font-family: "Odibee Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+section h2 {
+    font-family: "Odibee Sans", sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 32px;
+}
+section h3,
+form input,
+form textarea,
+form button,
+p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-image: linear-gradient(to right, #000000, #000000, #051538);
+}
+
+header {
+    padding: 16px 0;
+    color: white;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font-family: "Odibee Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    width: 56px;
+}
+
+.brands-list li {
+    display: inline;
+    align-items: center;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.front {
+    margin-right: 40px;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+#contact .container {
+    display: block;
+    margin-right: 8px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 90px;
+}
+section h3 {
+    margin-bottom: 16px;
+}
+form button {
+    background-color: #021338;
+    border: none;
+    cursor: pointer;
+}
+form input,
+form textarea {
+    background-color: #082157;
+    border: none;
+}
+form button:hover {
+    background-color: #0c214e;
+}
+form {
+    unicode-bidi: normal;
+}
+footer {
+    color: white;
+    padding: 16px 0;
+}
